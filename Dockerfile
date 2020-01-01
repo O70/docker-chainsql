@@ -3,7 +3,8 @@ LABEL maintainer="THRAEX@aliyun.com"
 
 RUN groupadd -r chainsql && useradd -r -g chainsql chainsql
 
-ENV CHAINSQL_URL https://github.com/ChainSQL/chainsqld/releases/download/v0.30.5/chainsqld-linux-x64-0.30.5.tar.gz
+ENV CHAINSQL_VERSION 0.30.5
+ENV CHAINSQL_URL https://github.com/ChainSQL/chainsqld/releases/download/v${CHAINSQL_VERSION}/chainsqld-linux-x64-${CHAINSQL_VERSION}.tar.gz
 
 WORKDIR /app
 
