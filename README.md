@@ -22,6 +22,8 @@ $ docker run -d --name cs \
 	-p 5006:5006 \
 	-p 5126:5126 \
 	-p 6006:6006 \
-	-v $PWD/Workspace/Dockers/chainsql/chainsqld.cfg:/app/chainsqld.cfg \
+	-v /Users/Guiwang/Workspace/Dockers/chainsql/cs.cfg:/app/chainsqld.cfg \
 	guiwang/chainsql:0.30.5
+
+$ docker rm -v $(docker stop cs)
 ```
