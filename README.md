@@ -65,28 +65,28 @@ $ docker run -d --name cs-node1 \
 	-p 5006:5006 \
 	-p 5126:5126 \
 	-p 6006:6006 \
-	-v /Users/Guiwang/Workspace/Dockers/chainsql/node1:/data/ \
+	-v /path/to/chainsql/node1:/data/ \
 	guiwang/chainsql:0.30.5
 
 $ docker run -d --name cs-node2 \
 	-p 5007:5006 \
 	-p 5127:5126 \
 	-p 6007:6006 \
-	-v /Users/Guiwang/Workspace/Dockers/chainsql/node2:/data/ \
+	-v /path/to/chainsql/node2:/data/ \
 	guiwang/chainsql:0.30.5
 
 $ docker run -d --name cs-node3 \
 	-p 5008:5006 \
 	-p 5128:5126 \
 	-p 6008:6006 \
-	-v /Users/Guiwang/Workspace/Dockers/chainsql/node3:/data/ \
+	-v /path/to/chainsql/node3:/data/ \
 	guiwang/chainsql:0.30.5
 
 $ docker run -d --name cs-node4 \
 	-p 5009:5006 \
 	-p 5129:5126 \
 	-p 6009:6006 \
-	-v /Users/Guiwang/Workspace/Dockers/chainsql/node4:/data/ \
+	-v /path/to/chainsql/node4:/data/ \
 	guiwang/chainsql:0.30.5
 ```
 
