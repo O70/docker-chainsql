@@ -2,6 +2,8 @@
 
 [ChainSQL Docs](http://docs.chainsql.net/index.html)
 
+[资产管理DEMO](./)
+
 ## 运行单节点
 
 ### 构建并运行
